@@ -1,7 +1,12 @@
 import java.util.Scanner;
 import java.io.PrintWriter;
 import java.io.FileNotFoundException;
-
+/**
+* Methods for interacting with the user in the command line.
+* They are called from other files to get input.
+* The methods also help enforce both an input file and output file
+* This is useful for ensuring the successful completion of this program
+*/
 public class UserInteraction{
 	private static String readFile;
 	private String writeFile;

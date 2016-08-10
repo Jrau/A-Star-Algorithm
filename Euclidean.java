@@ -1,5 +1,8 @@
 
-
+/**
+* Extends the BestFirstSearch and runs A* with the Euclidien algorithm
+* calculate 
+*/
 public class Euclidean extends BestFirstSearch{
 	Euclidean(){
 		super();
@@ -18,7 +21,11 @@ public class Euclidean extends BestFirstSearch{
 		super.findBestPath();
 		System.out.println("Ending Euclidean A*..");
 	}
-
+	/**
+	* override the abstract method calculateHeaurisitic to
+	* fill the Heauristic map with the Euclidien distances
+	* in the grid they are currently in.
+	*/
 	@Override
 	void calculateHeuristic(){
 		for (int i = 0; i < mapSize; ++i){
@@ -28,7 +35,9 @@ public class Euclidean extends BestFirstSearch{
 			}
 		}
 	}
-
+	/**
+	* Helper method for calculate heauristic
+	*/
 	private int calculateEuclideanDistance(int row, int col){
 		int ret = 0;
 		int hold_row = row - goalNode.getX();
@@ -45,7 +54,9 @@ public class Euclidean extends BestFirstSearch{
 		ret = (int)hold;
 		return ret;
 	}
-
+	/**
+	*	Prints a map based on the argument given (h for heauristic, r for regular)
+	*/
 	protected void printMap(char arg){
 		super.printMap(arg);
 	}

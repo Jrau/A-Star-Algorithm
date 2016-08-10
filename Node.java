@@ -1,5 +1,12 @@
 
-
+/**
+* This is the class used for each point (X,Y) on the grid
+* It represents all the data needed to find the path
+* It also has a parent node which is used to recursively
+* get the path from the start goal to the end goal
+* Other than that its methods are for comparing and calculating
+* the lowest cost so it can be put into a PriorityQueue class
+*/ 
 public class Node implements Comparable<Node>{
 	int x_coord,y_coord, stepCost, hCost;
 	Node parent;

@@ -19,7 +19,11 @@ public class Manhattan extends BestFirstSearch{
 		super.findBestPath();
 		System.out.println("Ending Manhattan A*..");
 	}
-
+	/**
+	* override the abstract method calculateHeaurisitic to
+	* fill the Heauristic map with the Manhattan distances
+	* in the grid they are currently in.
+	*/
 	@Override
 	void calculateHeuristic(){
 		for (int i = 0; i < mapSize; ++i){
@@ -29,7 +33,9 @@ public class Manhattan extends BestFirstSearch{
 			}
 		}
 	}
-
+	/**
+	* Helper method for calculate heauristic
+	*/
 	private int calculateManhattanDistance(int row, int col){
 		int hold_row = row - goalNode.getX();
 		int hold_col = col - goalNode.getY();
