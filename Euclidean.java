@@ -1,7 +1,6 @@
 
 
 public class Euclidean extends BestFirstSearch{
-	
 	Euclidean(){
 		super();
 		this.outputFile = "EuclideanOutput.res";
