@@ -1,7 +1,7 @@
 
 ## Synopsis
 
-This code implements the A* Algorithm in Java using two different heauristic functions. The first calculates the Manhattan Distance, or Manhattan Length, and the second calculates the Eucildean Distance. 
+This code implements the A* Algorithm in Java using two different heauristic functions. The first calculates the Manhattan Distance, or Manhattan Length, and the second calculates the Euclidean Distance. 
 
 ## Code Example
 ```java
