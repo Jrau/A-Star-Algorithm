@@ -132,7 +132,7 @@ public abstract class BestFirstSearch{
 	* The main loop is then started. The loop makes sure that there is a node to expand.
 	* If there isn't it then prints no possible path. However while there
 	* is a Node to check it first sees if the node is the goal, if it is
-	* it returns the path. If not it expands the fringe to include the goal
+	* it returns the path. If not it expands the fringe
 	* node. This repeats until a path is found or the program outputs no
 	* path possible
 	*/
