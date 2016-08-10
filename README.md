@@ -4,6 +4,7 @@
 This code implements the A* Algorithm in Java using two different heauristic functions. The first calculates the Manhattan Distance, or Manhattan Length, and the second calculates the Eucildean Distance. 
 
 ## Code Example
+```java
 /**
 	* This is the main loop the program runs. It first calls the 
 	* function expand fringe which expands the start node. This initializes 
@@ -28,7 +29,7 @@ protected void findBestPath(){
 		System.out.println("No possible path..");
 		return;
 	}
-
+```
 ## Motivation
 
 This project was done as an assignment for an Artificial Intelligence class at Chapman University. 
