@@ -46,10 +46,10 @@ The docs are inside the code. They describe the function in plain text. Seeing a
 
 To run the project just run the make command in the folder. The make command has four possibilities:
 1. make 
-	This will run MakeMatrix which will create a new matrixFile to test on and then will run the program on the newly created matrixFile
+  1. This will run MakeMatrix which will create a new matrixFile to test on and then will run the program on the newly created matrixFile
 2. make-run:
-	This will run the program with matrixFile as the input
+  1. This will run the program with matrixFile as the input
 3. make-build:
-	This will rebuild the project and recompile all java classes. When developing the project this must be done before running any other make commands
+  1. This will rebuild the project and recompile all java classes. When developing the project this must be done before running any other make commands
 4. make-matrix:
-	This runs MakeMatrix which creates a new matrixFile.txt and then stops. The file is not run in the program.
+  1. This runs MakeMatrix which creates a new matrixFile.txt and then stops. The file is not run in the program.
